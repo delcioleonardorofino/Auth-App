@@ -9,12 +9,12 @@ export default function Home() {
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
             Better-Auth
-            <span className="block text-indigo-600">Authentication Demo</span>
+            <span className="block text-indigo-600">Demonstração de Autenticação</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Experience the power of better-auth with this comprehensive demo
-            showcasing social providers, email/password authentication, and
-            protected routes.
+            Experimente o poder do better-auth com esta demonstração completa
+            exibindo provedores sociais, autenticação por e-mail/senha e
+            rotas protegidas.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -22,13 +22,13 @@ export default function Home() {
               href="/auth"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors"
             >
-              Try Authentication
+              Testar Autenticação
             </Link>
             <Link
               href="/dashboard"
               className="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors"
             >
-              View Dashboard
+              Ver Painel
             </Link>
           </div>
         </div>
@@ -52,12 +52,12 @@ export default function Home() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Social Authentication
+              Autenticação Social
             </h3>
             <p className="text-gray-600">
-              Seamlessly authenticate users with Google, GitHub, and other
-              popular social providers. No need to manage passwords or worry
-              about security.
+              Autentique usuários facilmente com Google, GitHub e outros
+              provedores sociais populares. Sem necessidade de gerenciar senhas ou se preocupar
+              com segurança.
             </p>
           </div>
 
@@ -78,11 +78,11 @@ export default function Home() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Email & Password
+              E-mail e Senha
             </h3>
             <p className="text-gray-600">
-              Traditional email and password authentication with secure password
-              hashing, email verification, and password reset functionality.
+              Autenticação tradicional por e-mail e senha com hash seguro de senhas,
+              verificação de e-mail e funcionalidade de redefinição de senha.
             </p>
           </div>
 
@@ -103,12 +103,12 @@ export default function Home() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Secure & Protected
+              Seguro e Protegido
             </h3>
             <p className="text-gray-600">
-              Built-in security features including JWT tokens, session
-              management, and protected routes that only authenticated users can
-              access.
+              Recursos de segurança nativos incluindo tokens JWT, gerenciamento
+              de sessão e rotas protegidas que apenas usuários autenticados podem
+              acessar.
             </p>
           </div>
         </div>
@@ -117,17 +117,17 @@ export default function Home() {
         <div className="mt-20 bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Try It Out
+              Experimente
             </h2>
             <p className="text-lg text-gray-600">
-              Experience the authentication flow with our interactive demo
+              Vivencie o fluxo de autenticação com nossa demonstração interativa
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-gray-900">
-                Authentication Flow
+                Fluxo de Autenticação
               </h3>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
@@ -137,7 +137,7 @@ export default function Home() {
                     </span>
                   </div>
                   <span className="text-gray-700">
-                    Visit the authentication page
+                    Acesse a página de autenticação
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -147,7 +147,7 @@ export default function Home() {
                     </span>
                   </div>
                   <span className="text-gray-700">
-                    Choose your preferred sign-in method
+                    Escolha seu método de login preferido
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -157,7 +157,7 @@ export default function Home() {
                     </span>
                   </div>
                   <span className="text-gray-700">
-                    Access the protected dashboard
+                    Acesse o painel protegido
                   </span>
                 </div>
               </div>
@@ -165,7 +165,7 @@ export default function Home() {
 
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-gray-900">
-                Available Features
+                Recursos Disponíveis
               </h3>
               <div className="space-y-2">
                 <div className="flex items-center space-x-2">
@@ -183,7 +183,7 @@ export default function Home() {
                     />
                   </svg>
                   <span className="text-gray-700">
-                    Google OAuth integration
+                    Integração com OAuth do Google
                   </span>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -201,7 +201,7 @@ export default function Home() {
                     />
                   </svg>
                   <span className="text-gray-700">
-                    GitHub OAuth integration
+                    Integração com OAuth do GitHub
                   </span>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -219,7 +219,7 @@ export default function Home() {
                     />
                   </svg>
                   <span className="text-gray-700">
-                    Email/password authentication
+                    Autenticação por e-mail/senha
                   </span>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -236,7 +236,7 @@ export default function Home() {
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
-                  <span className="text-gray-700">Protected routes</span>
+                  <span className="text-gray-700">Rotas protegidas</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <svg
@@ -252,7 +252,7 @@ export default function Home() {
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
-                  <span className="text-gray-700">User session management</span>
+                  <span className="text-gray-700">Gerenciamento de sessão de usuário</span>
                 </div>
               </div>
             </div>
@@ -263,7 +263,7 @@ export default function Home() {
               href="/auth"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors"
             >
-              Start Demo
+              Iniciar Demonstração
             </Link>
           </div>
         </div>
@@ -272,12 +272,12 @@ export default function Home() {
         <div className="mt-20 text-center">
           <div className="bg-blue-50 rounded-2xl p-8 border border-blue-200">
             <h3 className="text-2xl font-bold text-blue-900 mb-4">
-              About Better-Auth
+              Sobre o Better-Auth
             </h3>
             <p className="text-blue-800 text-lg mb-6">
-              Better-Auth is a modern, flexible authentication library for
-              Next.js that provides a seamless developer experience with
-              built-in security and extensive customization options.
+              O Better-Auth é uma biblioteca de autenticação moderna e flexível para
+              Next.js que oferece uma excelente experiência de desenvolvimento com
+              segurança integrada e amplas opções de personalização.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -286,7 +286,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 border border-blue-300 text-sm font-medium rounded-lg text-blue-700 bg-white hover:bg-blue-50 transition-colors"
               >
-                Learn More
+                Saiba Mais
               </a>
               <a
                 href="https://github.com/next-authjs/next-auth"
@@ -294,7 +294,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 border border-blue-300 text-sm font-medium rounded-lg text-blue-700 bg-white hover:bg-blue-50 transition-colors"
               >
-                View on GitHub
+                Ver no GitHub
               </a>
             </div>
           </div>
@@ -307,27 +307,26 @@ export default function Home() {
           <div className="text-center">
             <h3 className="text-lg font-semibold mb-4">Better-Auth Demo</h3>
             <p className="text-gray-400 mb-6">
-              A demonstration of modern authentication patterns and best
-              practices
+              Uma demonstração de padrões modernos e boas práticas de autenticação
             </p>
             <div className="flex justify-center space-x-6">
               <Link
                 href="/"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                Home
+                Início
               </Link>
               <Link
                 href="/auth"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                Authentication
+                Autenticação
               </Link>
               <Link
                 href="/dashboard"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                Dashboard
+                Painel
               </Link>
             </div>
           </div>
